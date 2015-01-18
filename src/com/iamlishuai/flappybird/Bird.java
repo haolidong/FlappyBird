@@ -149,7 +149,7 @@ public class Bird extends Thread {
 		if (flag == Bird.DOWN) {
 			long end = System.currentTimeMillis();
 		    long t = (end - GameUI.start);
-			int oy = (int) (ooldy + 0.5 * g * t * t);
+			int oy = (int) (ooldy + 0.8 * g * t * t);
 			y = oy;
 		} else {
 			y--;
